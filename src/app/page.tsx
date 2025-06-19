@@ -13,7 +13,7 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <Image src={theme === 'dark' ? logoDark : logo} alt='Logo' />
+      <Image src={theme === 'dark' ? logoDark : logo} alt='Logo' className={styles.logo} />
     </main>
   );
 }
