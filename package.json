@@ -1,0 +1,38 @@
+{
+  "name": "uireact-nextjs-project",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@uireact/card": "^3.7.19",
+    "@uireact/dialog": "^4.1.8",
+    "@uireact/flex": "^3.1.6",
+    "@uireact/foundation": "^4.1.5",
+    "@uireact/framer-animations": "^0.8.3",
+    "@uireact/icons": "^3.1.11",
+    "@uireact/text": "^3.5.11",
+    "@uireact/tools": "^0.1.2",
+    "@uireact/view": "^4.1.6",
+    "motion": "^12.6.5",
+    "next": "15.3.0",
+    "react": "^19",
+    "react-dom": "^19",
+    "sass": "^1.77.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
+    "typescript": "^5"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}
